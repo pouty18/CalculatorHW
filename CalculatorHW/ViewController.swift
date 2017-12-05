@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     var userIsInMiddleOfTyping: Bool = false
+    var expressionEvaluated: Bool = false
     
     var containsDecimal : Bool {
         let val = display.text!

@@ -52,6 +52,14 @@ struct CalculatorBrain {
         accumulator = value
     }
     
+    mutating func setOperand(variable named: String) {
+        
+    }
+
+    func evaluate(using variables: Dictionary<String,Double>? = nil) -> (result: Double?, isPending: Bool, description: String) {
+        
+        return (result: nil, false, "empty")
+    }
     
     mutating func performOperation(_ symbol: String) {
         
